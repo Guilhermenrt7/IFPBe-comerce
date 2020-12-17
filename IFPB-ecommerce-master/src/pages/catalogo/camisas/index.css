@@ -1,0 +1,41 @@
+.contentHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentTitle {
+  animation: aparecer 1s;
+  color: rgba(136,39,179,1);
+  font-family: Roboto;
+  text-align: justify;
+  margin-top: 100px;
+}
+
+.contentBody {
+  display: grid;
+  grid-template-rows: 400px 400px 400px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 80%;
+  justify-items: center;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 250px;
+}
+
+.productDescription{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.descriptionText {
+  font-family: Roboto;
+}

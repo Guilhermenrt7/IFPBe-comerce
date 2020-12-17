@@ -1,0 +1,24 @@
+.contentHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .contentTitle {
+    animation: aparecer 1s;
+    color: rgba(136,39,179,1);
+    font-family: Roboto;
+    text-align: justify;
+    padding: 100px 0px 0px 100px;
+  }
+  
+  .contentText {
+    animation: aparecer 1s;
+    font-family: Roboto;
+    text-align: justify;
+    max-width: 800px;
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-right: 100px;
+  }
